@@ -1,0 +1,120 @@
+#curtain-1 {
+	animation: closeRight 1s ease-out forwards;
+	animation-play-state: paused;
+	transform-origin: left;
+}
+
+#curtain-2 {
+	animation: closeLeft 1s ease-out forwards;
+  animation-play-state: paused;
+  transform-origin: right;
+}
+
+#curtain-3 {
+	animation: closeRight 1s ease-out forwards;
+	animation-play-state: paused;
+	transform-origin: left;
+}
+
+#curtain-4 {
+	animation: closeLeft 1s ease-out forwards;
+  animation-play-state: paused;
+  transform-origin: right;
+}
+
+#curtain-1:hover {
+	animation-play-state: running;
+}
+
+#curtain-2:hover {
+  animation-play-state: running;
+}
+
+#curtain-3:hover {
+	animation-play-state: running;
+}
+
+#curtain-4:hover{
+	animation-play-state: running;
+}
+
+#cat {
+	animation-name: moveCat;
+	animation-duration: 4s; 
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
+#beer-arm-1 {
+	animation: beer 5s infinite ease-in-out;
+  animation-direction: alternate;
+}
+
+#beer-arm-3 {
+	animation: beer 4s infinite ease-in-out;
+  animation-direction: alternate;
+  animation-delay: 4s;
+}
+
+#arm-4 {
+	animation: phone 3s ease-in;
+	animation-delay: 10s;
+}
+
+#sky-1,
+#sky-2 {
+	animation: night 10s ease-in forwards;
+}
+
+#tv-screen {
+	animation: hypnotize 10s infinite ease-in-out;
+}
+
+@keyframes closeRight {
+	0% {transform: translateX(0);}
+	100% {transform: scaleX(2.8);}
+
+}
+
+@keyframes closeLeft {
+	0% {transform: translateX(0);}
+	100% {transform: scaleX(2.8);}
+
+}
+
+@keyframes moveCat {
+	from {transform: translateX(1000px);}
+	to {transform: translateX(-2000px);}
+}
+
+@keyframes night {
+	 0% {fill: #a0dbed;}
+   100% {fill: #1d304f;}
+}
+
+@keyframes beer {
+	0% {transform: translate(0, 0);}
+  100% {transform: translate(-30px, -150px);}
+}
+
+@keyframes phone {
+	0% {transform: translate(0, 0);}
+  100% {transform: translate(-30px, -150px);}
+}
+
+@keyframes hypnotize {
+	0% {fill: #000;}
+ 	10% {fill: #ff0000;}
+ 	20% {fill: #ff00fe;}
+ 	30% {fill: #0f00ff;}
+ 	40% {fill: #00e6ff;}
+ 	50% {fill: #00ff2e;}
+ 	60% {fill: #fbff00;}
+ 	70% {fill: #ff3100;}
+ 	80% {fill: #FFF;}
+ 	90% {fill: #777777;}
+ 	100% {fill: #000;}
+}
+
+
+

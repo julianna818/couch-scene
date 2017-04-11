@@ -1,21 +1,11 @@
-#curtain-1 {
-	animation: closeRight 1s ease-out forwards;
-	animation-play-state: paused;
-	transform-origin: left;
-}
-
-#curtain-2 {
-	animation: closeLeft 1s ease-out forwards;
-  animation-play-state: paused;
-  transform-origin: right;
-}
-
+#curtain-1,
 #curtain-3 {
 	animation: closeRight 1s ease-out forwards;
 	animation-play-state: paused;
 	transform-origin: left;
 }
 
+#curtain-2,
 #curtain-4 {
 	animation: closeLeft 1s ease-out forwards;
   animation-play-state: paused;

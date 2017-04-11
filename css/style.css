@@ -47,7 +47,7 @@
 }
 
 #arm-4 {
-	animation: phone 3s ease-in;
+	animation: phone 3s;
 	animation-delay: 10s;
 }
 
@@ -94,7 +94,7 @@
 }
 
 @keyframes phone {
-	0% {transform: translate(0, 0);}
+	0% {transform: translate(0);}
   100% {transform: translate(-30px, -150px);}
 }
 

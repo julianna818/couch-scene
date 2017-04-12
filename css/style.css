@@ -47,8 +47,9 @@
 }
 
 #arm-4 {
-	animation: phone 3s;
-	animation-delay: 10s;
+	animation: phone 3s infinite ease-in-out;
+	animation-direction: alternate;
+	animation-delay: 5s;
 }
 
 #sky-1,
